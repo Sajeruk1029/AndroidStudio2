@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "356713060318",
+    "project_id": "logandreg-c85ea",
+    "storage_bucket": "logandreg-c85ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356713060318:android:76fc0f005b3afca6a16f4f",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356713060318-34onv0533a3drgb9k60tuefnt9eo5ooi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgHf0BPcWqOqwaTjcelSRhSQO3aO-fg7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356713060318-34onv0533a3drgb9k60tuefnt9eo5ooi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
