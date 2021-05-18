@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/ButOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:text="ON"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/ButOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:text="OFF"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/ButPaired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:text="Show paired devices"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/ButDiscoverable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:text="Visible to other devices"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <TextView
+        android:id="@+id/Paired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.mvvm.models.LoginViewModel" />
+    </data>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editLogin"
+            android:hint="Login"
+            app:addTextChangedListener="@{viewModel.emailTextWatcher()}"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            app:addTextChangedListener="@{viewModel.passwordTextWatcher()}"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/butLogin"
+            android:text="Login"
+            android:onClick="@{viewModel::onLoginClicked}"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/butReg"
+            android:text="Registration"
+            android:onClick="@{viewModel::onRegistrationClicked}"
+            />
+
+    </LinearLayout>
+
+</layout>
