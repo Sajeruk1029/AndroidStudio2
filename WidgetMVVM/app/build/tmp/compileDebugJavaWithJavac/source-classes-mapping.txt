@@ -1,0 +1,22 @@
+com/example/widgetmvvm/DataBindingTriggerClass.java
+ com.example.widgetmvvm.DataBindingTriggerClass
+com/example/widgetmvvm/DataBinderMapperImpl.java
+ com.example.widgetmvvm.DataBinderMapperImpl
+ com.example.widgetmvvm.DataBinderMapperImpl$InnerBrLookup
+ com.example.widgetmvvm.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/widgetmvvm/databinding/ActivityAddTaskBinding.java
+ com.example.widgetmvvm.databinding.ActivityAddTaskBinding
+com/example/widgetmvvm/BR.java
+ com.example.widgetmvvm.BR
+com/example/widgetmvvm/databinding/ActivityAddTaskBindingImpl.java
+ com.example.widgetmvvm.databinding.ActivityAddTaskBindingImpl
+ com.example.widgetmvvm.databinding.ActivityAddTaskBindingImpl$OnClickListenerImpl
+ com.example.widgetmvvm.databinding.ActivityAddTaskBindingImpl$OnClickListenerImpl1
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/widgetmvvm/BuildConfig.java
+ com.example.widgetmvvm.BuildConfig
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.widgetmvvm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:5:5-34:19
+12        android:allowBackup="true"
+12-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/9fb4e3e81723a9628fb6f64842d6a72e/core-1.3.2/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.WidgetMVVM" >
+20-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:11:9-48
+21        <service
+21-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:13:9-15:71
+22            android:name="com.example.widgetmvvm.MyService"
+22-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:14:13-37
+23            android:permission="android.permission.BIND_REMOTEVIEWS" />
+23-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:15:13-69
+24
+25        <receiver android:name="com.example.widgetmvvm.ListViewAppWidget" >
+25-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:16:9-24:20
+25-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:16:19-52
+26            <intent-filter>
+26-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:17:13-19:29
+27                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+27-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:18:17-84
+27-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:18:25-81
+28            </intent-filter>
+29
+30            <meta-data
+30-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:21:13-23:69
+31                android:name="android.appwidget.provider"
+31-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:22:17-58
+32                android:resource="@xml/list_view_app_widget_info" />
+32-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:23:17-66
+33        </receiver>
+34
+35        <activity android:name="com.example.widgetmvvm.AddTask" />
+35-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:26:9-45
+35-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:26:19-42
+36        <activity android:name="com.example.widgetmvvm.MainActivity" >
+36-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:27:9-33:20
+36-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:27:19-47
+37            <intent-filter>
+37-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:29:17-69
+38-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:31:17-77
+40-->/home/sajeruk/Test/Git/WidgetMVVM/app/src/main/AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/86e1e66cdaea7c023ce1f1e01fb6cfb7/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/86e1e66cdaea7c023ce1f1e01fb6cfb7/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+46            android:authorities="com.example.widgetmvvm.lifecycle-process"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/86e1e66cdaea7c023ce1f1e01fb6cfb7/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+47            android:exported="false"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/86e1e66cdaea7c023ce1f1e01fb6cfb7/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+48            android:multiprocess="true" />
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/sajeruk/.gradle/caches/transforms-2/files-2.1/86e1e66cdaea7c023ce1f1e01fb6cfb7/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+49    </application>
+50
+51</manifest>
