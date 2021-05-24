@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/on_fragment_two"
+        android:icon="@color/colorPrimaryDark"
+        android:title="Graphic"
+        />
+
+    <item
+        android:id="@+id/on_fragment_one"
+        android:icon="@color/colorPrimary"
+        android:title="Data base"
+        />
+
+</menu>
